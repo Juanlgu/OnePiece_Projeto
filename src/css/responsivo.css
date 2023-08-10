@@ -1,0 +1,24 @@
+@media (max-width: 1100px){
+	.cabecalho .logo{
+		max-width: 700px;
+	}
+	.selecao-de-personagens{
+		flex-direction: column-reverse;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+	.selecao-de-personagens .personagens{
+		margin-top: 300px;
+	}
+	.selecao-de-personagens .titulo{
+		font-size: 20px;
+		align-content: center;
+	}
+	.selecao-de-personagens .nome-personagem{
+		font-size: 30px;
+	}
+
+
+}
+
+

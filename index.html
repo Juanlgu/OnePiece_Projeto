@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content=width=device-width,initial-scale=1.0" />
+    <title>Projeto One Piece</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="./src/imagens/logo2.png" alt="logo" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="luffy"
+            data-name="Monkey D. Luffy"
+            data-description="Monkey D. Luffy, também conhecido como Luffy do Chapéu de Palha'' e comumente como ''Chapéu de Palha'', é o fundador e capitão dos cada vez mais infames e poderosos Piratas do Chapéu de Palha, bem como o mais poderoso de seus melhores lutadores."
+          >
+            <img src="./src/imagens/card-luffy.jpeg" alt="Personagem Luffy" />
+          </li>
+          <li
+            class="personagem"
+            id="zoro"
+            data-name=" Roronoa Zoro"
+            data-description="Roronoa Zoro, também conhecido como ''Caçador de Piratas'' Zoro, é o combatente dos Piratas do Chapéu de Palha e um ex-caçador de recompensas"
+          >
+            <img src="./src/imagens/card-zoro.jpeg" alt="Personagem Zoro" />
+          </li>
+          <li
+            class="personagem"
+            id="robin"
+            data-name="Nico Robin"
+            data-description="Nico Robin, também conhecida como ''Criança Demônio'' e ''Luz da Revolução'', é a arqueóloga dos Piratas do Chapéu de Palha. Ela é a única sobrevivente da ilha destruída de Ohara, localizada no West Blue. Como resultado, ela é atualmente a única pessoa no mundo com a capacidade de ler e decifrar Poneglyphs, uma habilidade que é considerada proibida e que ameaça o Governo Mundial. "
+          >
+            <img src="./src/imagens/card-robin.jpeg" alt="Personagem Robin" />
+          </li>
+          <li
+            class="personagem"
+            id="usopp"
+            data-name="Captain Usopp"
+            data-description="''God'' Usopp é o Atirador dos Piratas do Chapéu de Palha. Ele é o quarto membro da tripulação e o terceiro a entrar. Usopp sonha em se tornar um corajoso guerreiro do mar como seu pai, e vive todos os dias em busca de viver à altura deste sonho."
+          >
+            <img src="./src/imagens/card-usopp.jpeg" alt="Personagem Usopp" />
+          </li>
+          <li
+            class="personagem"
+            id="sanji"
+            data-name="Vinsmoke Sanji"
+            data-description="''Perna Preta'' Sanji, nascido como Vinsmoke Sanji, e também é o cozinheiro dos Piratas do Chapéu de Palha, assim como um antigo chefe de cozinha do Baratie. Ele também é o terceiro filho e a quarta criança da Família Vinsmoke, tornando-o um príncipe do Reino Germa, até que ele oficialmente os renunciou duas vezes. Apesar de Sanji renunciar ao seu sobrenome Vinsmoke, o Governo Mundial o rotula como parte de seu nome em seu pôster de procurado."
+          >
+            <img src="./src/imagens/card-sanji.jpeg" alt="Personagem Sanji" />
+          </li>
+          <li
+            class="personagem"
+            id="franky"
+            data-name="(Cutty Flam) Franky"
+            data-description="Franky é o carpinteiro dos Piratas do Chapéu de Palha. Ele é um cyborg de 36 anos de Water 7 e foi introduzido na história como o líder da Família Franky, um grupo de desmantelamento de navios. Ele foi originalmente chamado de ''Cutty Flam'' até trocar seu nome original por seu apelido a pedidos de Iceburg para esconder sua identidade. "
+          >
+            <img src="./src/imagens/card-franky.jpeg" alt="Personagem Franky" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-luffy.png"
+          alt="luffy"
+        />
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Luffy</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Monkey D. Luffy, também conhecido como "Luffy do Chapéu de Palha" e
+            comumente como "Chapéu de Palha", é o fundador e capitão dos cada
+            vez mais infames e poderosos Piratas do Chapéu de Palha, bem como o
+            mais poderoso de seus melhores lutadores.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
